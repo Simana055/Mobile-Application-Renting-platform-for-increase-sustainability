@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarketPlaceActivity"
+    android:background="@color/actionBarColor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1"
+                android:background="@color/purple_500"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="0.8">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home"
+                        android:padding="10dp"
+                        android:id="@+id/home"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="22sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        >
+
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+
+
+                            >
+
+                            <ImageView
+                                android:id="@+id/cart_btn_main"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/ic_add_shopping_cart_black_24dp" />
+
+
+
+
+
+                        </RelativeLayout>
+
+
+                        <TextView
+                            android:visibility="visible"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/cart_item"
+                            android:text="0"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/cart_items_number"/>
+
+
+                    </RelativeLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                >
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/property_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Top_Bar"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/floating_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+<!--            android:layout_marginRight="25dp"-->
+<!--            android:layout_marginBottom="25dp"-->
+<!--            android:background="#ED293F"-->
+<!--            android:backgroundTint="@color/purple_500"-->
+<!--            android:src="@drawable/ic_add"-->
+<!--            android:tint="@color/white"-->
+<!--            android:visibility="visible" />-->
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:id="@+id/avi" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="No Ad Posted"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpFeedbackActivity"
+    android:background="@color/actionBarColor"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/back" />
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:src="@drawable/rentme_logo"
+                />
+
+            <Button
+                android:id="@+id/Home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home" />
+
+            <Button
+                android:id="@+id/Profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/profile" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/frequently_asked_questions_faq"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/what_is_rentme" />
+
+        <TextView
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/a_mobile_application_for_renting_the_resources_for_increase_sustainability_as_we_know_we_have_a_lot_of_things_in_our_home_that_we_are_not_using_in_our_day_to_day_life_so_instead_of_keeping_them_for_long_use_without_operating_we_can_rent_those_resources_in_our_local_people_or_community_to_increase_the_productivity_and_sustainability"
+            android:textColor="#546E7A" />
+
+        <TextView
+            android:id="@+id/Q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_many_ads_can_i_post_in_rentme" />
+
+        <TextView
+            android:id="@+id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/there_are_no_limits_to_how_many_ads_users_can_post_as_long_as_it_is_unique_duplicates_are_rejected_by_the_admin" />
+
+        <TextView
+            android:id="@+id/Q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_long_do_ads_stay_on_rentme" />
+
+        <TextView
+            android:id="@+id/A3"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="@string/ad_duration_is_not_specified_unless_it_is_unavailable_or_removed_by_user_themselves"
+            android:textColor="#616161" />
+
+        <TextView
+            android:id="@+id/Q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_do_i_post_an_ad" />
+
+        <TextView
+            android:id="@+id/A4"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:text="@string/first_step_is_you_must_be_logged_in_then_click_on_post_ad_and_create_title_for_your_ad_then_type_product_description_along_with_price_and_pictures_then_click_post_item_and_you_re_done"
+            android:textColor="#616161" />
+
+        <TextView
+            android:id="@+id/Q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_do_i_post_review_and_comments"
+            android:textColor="#616161" />
+
+        <TextView
+            android:id="@+id/A5"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/first_step_is_you_must_be_logged_in_then_click_on_a_post_you_want_to_review_below_you_will_see_review_and_comment_section_there_you_ll_see_write_a_review_comment_box_click_and_start_typing_ypu_review_once_youre_done_press_post_review"
+            android:textColor="#455A64" />
+
+        <TextView
+            android:id="@+id/Q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_do_i_pay_for_the_items_that_i_borrow"
+            android:textColor="#455A64" />
+
+        <TextView
+            android:id="@+id/A6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/it_s_simple_once_you_like_the_item_add_it_to_cart_and_proceed_to_checkout_and_you_ll_be_granted_with_payment_options_mastercard_or_paypal"
+            android:textColor="#455A64" />
+    </LinearLayout>
+
+
+</RelativeLayout>

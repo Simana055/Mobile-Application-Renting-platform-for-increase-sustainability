@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">My Application- RentMe</string>
+    <string name="popular_category">Popular Category</string>
+    <string name="search_here">search here</string>
+    <string name="home">Home</string>
+    <string name="marketplace">marketplace</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="history">History</string>
+    <string name="message">Message</string>
+    <string name="gardening">Gardening</string>
+    <string name="construction">Construction</string>
+    <string name="popular_categories">Popular categories</string>
+    <string name="gardeningHousehold">Gardening and Household</string>
+    <string name="medical_tools">Medical Tools</string>
+    <string name="garden_home_tools">Garden/Home Tools</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="view_order_history">View Order History</string>
+    <string name="view_details">view details</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="admintest">admintest11@gmail.com</string>
+
+    <string name="title_activity_register2">Register2Activity</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+
+    <string name="how_do_i_pay_for_the_items_that_i_borrow">*How do I pay for the items that I borrow?</string>
+    <string name="a_mobile_application_for_renting_the_resources_for_increase_sustainability_as_we_know_we_have_a_lot_of_things_in_our_home_that_we_are_not_using_in_our_day_to_day_life_so_instead_of_keeping_them_for_long_use_without_operating_we_can_rent_those_resources_in_our_local_people_or_community_to_increase_the_productivity_and_sustainability">A mobile application for renting the resources for increase sustainability. As we know we have a lot of things in our home that we are not using in our day-to-day life, so instead of keeping them for long use without operating we can rent those resources in our local people or community to increase the productivity and sustainability.</string>
+    <string name="it_s_simple_once_you_like_the_item_add_it_to_cart_and_proceed_to_checkout_and_you_ll_be_granted_with_payment_options_mastercard_or_paypal">It\'s simple. Once you like the item add it to cart and proceed to checkout and you\'ll be granted with payment options (mastercard or paypal).</string>
+    <string name="first_step_is_you_must_be_logged_in_then_click_on_a_post_you_want_to_review_below_you_will_see_review_and_comment_section_there_you_ll_see_write_a_review_comment_box_click_and_start_typing_ypu_review_once_youre_done_press_post_review">First step is you must be logged in. Then, click on a POST you want to review. Below you will see review and comment section. There you\'ll see write a review comment box click and start typing ypu review once youre done press post review.</string>
+    <string name="how_do_i_post_review_and_comments">*How do I post review and comments?</string>
+    <string name="back">back</string>
+    <string name="frequently_asked_questions_faq">Frequently Asked Questions (FAQ)</string>
+    <string name="profile">Profile</string>
+    <string name="what_is_rentme">*What is RentME?</string>
+    <string name="how_many_ads_can_i_post_in_rentme">*How many ads can I post in RentME?</string>
+    <string name="there_are_no_limits_to_how_many_ads_users_can_post_as_long_as_it_is_unique_duplicates_are_rejected_by_the_admin">There are no limits to how many ADS users can post as long as it is unique. Duplicates are rejected by the Admin.</string>
+    <string name="how_long_do_ads_stay_on_rentme">*How long do Ads stay on RentME?</string>
+    <string name="how_do_i_post_an_ad">*How do I post an Ad?</string>
+    <string name="ad_duration_is_not_specified_unless_it_is_unavailable_or_removed_by_user_themselves">Ad duration is not specified unless it is unavailable or removed by user themselves.</string>
+    <string name="first_step_is_you_must_be_logged_in_then_click_on_post_ad_and_create_title_for_your_ad_then_type_product_description_along_with_price_and_pictures_then_click_post_item_and_you_re_done">First step is you must be logged in. Then, click on POST AD and create title for your AD. Then type product description along with price and pictures. Then click Post item and you\'re done.</string>
+    <string name="todo">TODO</string>
+</resources>
